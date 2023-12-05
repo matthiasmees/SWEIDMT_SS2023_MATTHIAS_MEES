@@ -77,37 +77,407 @@ $(function() {
   <div class="headertitle"><div class="title">CTDataset Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>The <a class="el" href="class_c_t_dataset.html" title="The CTDataset class calculates everything for the widget class Aufgabe2_1.">CTDataset</a> class calculates everything for the widget class <a class="el" href="class_aufgabe2__1.html" title="The Aufgabe2_1 class is the graphical interface class with slots and functions to visualize the calcu...">Aufgabe2_1</a>.  
+ <a href="class_c_t_dataset.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="ctdataset_8h_source.html">ctdataset.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa268ffa4ac94e04def0497b42045d1cc" id="r_aa268ffa4ac94e04def0497b42045d1cc"><td class="memItemLeft" align="right" valign="top"><a id="aa268ffa4ac94e04def0497b42045d1cc" name="aa268ffa4ac94e04def0497b42045d1cc"></a>
-ReturnCode&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (QString imagePath, bool active3D)</td></tr>
+<tr class="memitem:a2a0b39538bc12aa5abb374425704ba51" id="r_a2a0b39538bc12aa5abb374425704ba51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_t_dataset.html#a2a0b39538bc12aa5abb374425704ba51">CTDataset</a> ()</td></tr>
+<tr class="memdesc:a2a0b39538bc12aa5abb374425704ba51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="separator:a2a0b39538bc12aa5abb374425704ba51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f65730e825f1ba545885ab3ea9dbbe1" id="r_a0f65730e825f1ba545885ab3ea9dbbe1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_t_dataset.html#a0f65730e825f1ba545885ab3ea9dbbe1">~CTDataset</a> ()</td></tr>
+<tr class="memdesc:a0f65730e825f1ba545885ab3ea9dbbe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
+<tr class="separator:a0f65730e825f1ba545885ab3ea9dbbe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa268ffa4ac94e04def0497b42045d1cc" id="r_aa268ffa4ac94e04def0497b42045d1cc"><td class="memItemLeft" align="right" valign="top">ReturnCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_t_dataset.html#aa268ffa4ac94e04def0497b42045d1cc">load</a> (QString imagePath, bool active3D)</td></tr>
+<tr class="memdesc:aa268ffa4ac94e04def0497b42045d1cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads Image according to its size and returns whethter it was successfull.  <br /></td></tr>
 <tr class="separator:aa268ffa4ac94e04def0497b42045d1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a002d569c5cd57def68d954a3bc46dec8" id="r_a002d569c5cd57def68d954a3bc46dec8"><td class="memItemLeft" align="right" valign="top"><a id="a002d569c5cd57def68d954a3bc46dec8" name="a002d569c5cd57def68d954a3bc46dec8"></a>
-short *&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> ()</td></tr>
+<tr class="memitem:a002d569c5cd57def68d954a3bc46dec8" id="r_a002d569c5cd57def68d954a3bc46dec8"><td class="memItemLeft" align="right" valign="top">short *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_t_dataset.html#a002d569c5cd57def68d954a3bc46dec8">data</a> ()</td></tr>
+<tr class="memdesc:a002d569c5cd57def68d954a3bc46dec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return function for data that was read with the load function.  <br /></td></tr>
 <tr class="separator:a002d569c5cd57def68d954a3bc46dec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a42bdaf05f9965358c291416f6f764b06" id="r_a42bdaf05f9965358c291416f6f764b06"><td class="memItemLeft" align="right" valign="top"><a id="a42bdaf05f9965358c291416f6f764b06" name="a42bdaf05f9965358c291416f6f764b06"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>calculateDepthBuffer</b> (short *inputData, int width, int height, int layers, int threshold, short *depthBuffer)</td></tr>
+<tr class="memitem:a42bdaf05f9965358c291416f6f764b06" id="r_a42bdaf05f9965358c291416f6f764b06"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_t_dataset.html#a42bdaf05f9965358c291416f6f764b06">calculateDepthBuffer</a> (short *inputData, int width, int height, int layers, int threshold, short *depthBuffer)</td></tr>
+<tr class="memdesc:a42bdaf05f9965358c291416f6f764b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculation of the depth buffer.  <br /></td></tr>
 <tr class="separator:a42bdaf05f9965358c291416f6f764b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53d831241484f93d1bd71a9de5724355" id="r_a53d831241484f93d1bd71a9de5724355"><td class="memItemLeft" align="right" valign="top"><a id="a53d831241484f93d1bd71a9de5724355" name="a53d831241484f93d1bd71a9de5724355"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>renderDepthBuffer</b> (const short *depthBuffer, int width, int height, short *shadedBuffer)</td></tr>
+<tr class="memitem:a53d831241484f93d1bd71a9de5724355" id="r_a53d831241484f93d1bd71a9de5724355"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_t_dataset.html#a53d831241484f93d1bd71a9de5724355">renderDepthBuffer</a> (const short *depthBuffer, int width, int height, short *shadedBuffer)</td></tr>
+<tr class="memdesc:a53d831241484f93d1bd71a9de5724355"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rendering of rhe depth buffer.  <br /></td></tr>
 <tr class="separator:a53d831241484f93d1bd71a9de5724355"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba9b60ad5e96dd6938aa6738d2c12e7f" id="r_aba9b60ad5e96dd6938aa6738d2c12e7f"><td class="memItemLeft" align="right" valign="top"><a id="aba9b60ad5e96dd6938aa6738d2c12e7f" name="aba9b60ad5e96dd6938aa6738d2c12e7f"></a>
-static ReturnCode&#160;</td><td class="memItemRight" valign="bottom"><b>windowing</b> (int HU_value, int center, int width)</td></tr>
+<tr class="memitem:aba9b60ad5e96dd6938aa6738d2c12e7f" id="r_aba9b60ad5e96dd6938aa6738d2c12e7f"><td class="memItemLeft" align="right" valign="top">static ReturnCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_t_dataset.html#aba9b60ad5e96dd6938aa6738d2c12e7f">windowing</a> (int HU_value, int center, int width)</td></tr>
+<tr class="memdesc:aba9b60ad5e96dd6938aa6738d2c12e7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Windowing function without greyValue.  <br /></td></tr>
 <tr class="separator:aba9b60ad5e96dd6938aa6738d2c12e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c22fb79ab1de8d749dba7ce0a538782" id="r_a4c22fb79ab1de8d749dba7ce0a538782"><td class="memItemLeft" align="right" valign="top"><a id="a4c22fb79ab1de8d749dba7ce0a538782" name="a4c22fb79ab1de8d749dba7ce0a538782"></a>
-static ReturnCode&#160;</td><td class="memItemRight" valign="bottom"><b>windowing</b> (int HU_value, int center, int width, int &amp;greyValue)</td></tr>
+<tr class="memitem:a4c22fb79ab1de8d749dba7ce0a538782" id="r_a4c22fb79ab1de8d749dba7ce0a538782"><td class="memItemLeft" align="right" valign="top">static ReturnCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_t_dataset.html#a4c22fb79ab1de8d749dba7ce0a538782">windowing</a> (int HU_value, int center, int width, int &amp;greyValue)</td></tr>
+<tr class="memdesc:a4c22fb79ab1de8d749dba7ce0a538782"><td class="mdescLeft">&#160;</td><td class="mdescRight">Windowing function with greyValue.  <br /></td></tr>
 <tr class="separator:a4c22fb79ab1de8d749dba7ce0a538782"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aeac3c82ce96b65ac06376a8bb7ea6203" id="r_aeac3c82ce96b65ac06376a8bb7ea6203"><td class="memItemLeft" align="right" valign="top"><a id="aeac3c82ce96b65ac06376a8bb7ea6203" name="aeac3c82ce96b65ac06376a8bb7ea6203"></a>
 short *&#160;</td><td class="memItemRight" valign="bottom"><b>m_pImageData</b></td></tr>
+<tr class="memdesc:aeac3c82ce96b65ac06376a8bb7ea6203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private Image data storage for calculations inside the class. <br /></td></tr>
 <tr class="separator:aeac3c82ce96b65ac06376a8bb7ea6203"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The <a class="el" href="class_c_t_dataset.html" title="The CTDataset class calculates everything for the widget class Aufgabe2_1.">CTDataset</a> class calculates everything for the widget class <a class="el" href="class_aufgabe2__1.html" title="The Aufgabe2_1 class is the graphical interface class with slots and functions to visualize the calcu...">Aufgabe2_1</a>. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a2a0b39538bc12aa5abb374425704ba51" name="a2a0b39538bc12aa5abb374425704ba51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a0b39538bc12aa5abb374425704ba51">&#9670;&#160;</a></span>CTDataset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CTDataset::CTDataset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<p><a class="el" href="class_c_t_dataset.html#a2a0b39538bc12aa5abb374425704ba51" title="Constructor.">CTDataset::CTDataset</a> constructor for the <a class="el" href="class_c_t_dataset.html" title="The CTDataset class calculates everything for the widget class Aufgabe2_1.">CTDataset</a> class Initializes storage for the imported Image Data from file.</p>
+<ul>
+<li></li>
+</ul>
+
+</div>
+</div>
+<a id="a0f65730e825f1ba545885ab3ea9dbbe1" name="a0f65730e825f1ba545885ab3ea9dbbe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f65730e825f1ba545885ab3ea9dbbe1">&#9670;&#160;</a></span>~CTDataset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CTDataset::~CTDataset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+<p><a class="el" href="class_c_t_dataset.html#a0f65730e825f1ba545885ab3ea9dbbe1" title="Destructor.">CTDataset::~CTDataset</a> Destructor of class <a class="el" href="class_c_t_dataset.html" title="The CTDataset class calculates everything for the widget class Aufgabe2_1.">CTDataset</a> destroys the class and empties up reserved storage for image data. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a42bdaf05f9965358c291416f6f764b06" name="a42bdaf05f9965358c291416f6f764b06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42bdaf05f9965358c291416f6f764b06">&#9670;&#160;</a></span>calculateDepthBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CTDataset::calculateDepthBuffer </td>
+          <td>(</td>
+          <td class="paramtype">short *&#160;</td>
+          <td class="paramname"><em>inputData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>layers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>threshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">short *&#160;</td>
+          <td class="paramname"><em>depthBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculation of the depth buffer. </p>
+<p><a class="el" href="class_c_t_dataset.html#a42bdaf05f9965358c291416f6f764b06" title="Calculation of the depth buffer.">CTDataset::calculateDepthBuffer</a> calculates the depth buffer for the 3D visualization.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inputData</td><td>short array from the read in image data array </td></tr>
+    <tr><td class="paramname">width</td><td>width of the image </td></tr>
+    <tr><td class="paramname">height</td><td>height of the image </td></tr>
+    <tr><td class="paramname">layers</td><td>number of layers from the read in file </td></tr>
+    <tr><td class="paramname">threshold</td><td>threshold value which determines what the breaking condition is for the depth </td></tr>
+    <tr><td class="paramname">depthBuffer</td><td>new created data array of the depth buffer with saved values from z-axis </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a002d569c5cd57def68d954a3bc46dec8" name="a002d569c5cd57def68d954a3bc46dec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a002d569c5cd57def68d954a3bc46dec8">&#9670;&#160;</a></span>data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short * CTDataset::data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return function for data that was read with the load function. </p>
+<p><a class="el" href="class_c_t_dataset.html#a002d569c5cd57def68d954a3bc46dec8" title="Return function for data that was read with the load function.">CTDataset::data</a> returns the image data read from the <a class="el" href="class_c_t_dataset.html#aa268ffa4ac94e04def0497b42045d1cc" title="Loads Image according to its size and returns whethter it was successfull.">load()</a> function to the widget.</p>
+<dl class="section return"><dt>Returns</dt><dd>m_pImageData short data array </dd></dl>
+
+</div>
+</div>
+<a id="aa268ffa4ac94e04def0497b42045d1cc" name="aa268ffa4ac94e04def0497b42045d1cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa268ffa4ac94e04def0497b42045d1cc">&#9670;&#160;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ReturnCode CTDataset::load </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>imagePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>active3D</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads Image according to its size and returns whethter it was successfull. </p>
+<p><a class="el" href="class_c_t_dataset.html#aa268ffa4ac94e04def0497b42045d1cc" title="Loads Image according to its size and returns whethter it was successfull.">CTDataset::load</a> loads image data file into reserved storage image data according to file size into 2D or 3D array tells the widget class <a class="el" href="class_aufgabe2__1.html" title="The Aufgabe2_1 class is the graphical interface class with slots and functions to visualize the calcu...">Aufgabe2_1</a> whether the loading state is correct and enables the export of the image data to the widget class via <a class="el" href="class_c_t_dataset.html#a002d569c5cd57def68d954a3bc46dec8" title="Return function for data that was read with the load function.">data()</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">imagePath</td><td>path for located image file on hard drive </td></tr>
+    <tr><td class="paramname">active3D</td><td>bool value for deciding whether the imported file is a 3D array or 2D array for correct reading </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ReturnCode for telling whether data file was imported correctly according to its size and data type </dd></dl>
+
+</div>
+</div>
+<a id="a53d831241484f93d1bd71a9de5724355" name="a53d831241484f93d1bd71a9de5724355"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53d831241484f93d1bd71a9de5724355">&#9670;&#160;</a></span>renderDepthBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CTDataset::renderDepthBuffer </td>
+          <td>(</td>
+          <td class="paramtype">const short *&#160;</td>
+          <td class="paramname"><em>depthBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">short *&#160;</td>
+          <td class="paramname"><em>shadedBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rendering of rhe depth buffer. </p>
+<p><a class="el" href="class_c_t_dataset.html#a53d831241484f93d1bd71a9de5724355" title="Rendering of rhe depth buffer.">CTDataset::renderDepthBuffer</a> renders the shaded buffer with help of mathematical function and the depth buffer array from <a class="el" href="class_c_t_dataset.html#a42bdaf05f9965358c291416f6f764b06" title="Calculation of the depth buffer.">calculateDepthBuffer()</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">depthBuffer</td><td>calculated depth buffer from <a class="el" href="class_c_t_dataset.html#a42bdaf05f9965358c291416f6f764b06" title="Calculation of the depth buffer.">calculateDepthBuffer()</a> with saved z-axis values for which the threshold is not fulfilled </td></tr>
+    <tr><td class="paramname">width</td><td>width of printed picture </td></tr>
+    <tr><td class="paramname">height</td><td>height of printed picture </td></tr>
+    <tr><td class="paramname">shadedBuffer</td><td>created data array of the 3D versioned shaded buffer as short data array </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aba9b60ad5e96dd6938aa6738d2c12e7f" name="aba9b60ad5e96dd6938aa6738d2c12e7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba9b60ad5e96dd6938aa6738d2c12e7f">&#9670;&#160;</a></span>windowing() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ReturnCode CTDataset::windowing </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>HU_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Windowing function without greyValue. </p>
+<p><a class="el" href="class_c_t_dataset.html#aba9b60ad5e96dd6938aa6738d2c12e7f" title="Windowing function without greyValue.">CTDataset::windowing</a> function to window the values without returning a grey value.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">HU_value</td><td>value of each pixel/voxel as HU value from the data array </td></tr>
+    <tr><td class="paramname">center</td><td>center of the window which should be illustrated </td></tr>
+    <tr><td class="paramname">width</td><td>width of the window which should be illustrated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ReturnCode, whether the used overgiven parameters are valid, OK if everything is fine else description which value is out of bounds </dd></dl>
+
+</div>
+</div>
+<a id="a4c22fb79ab1de8d749dba7ce0a538782" name="a4c22fb79ab1de8d749dba7ce0a538782"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c22fb79ab1de8d749dba7ce0a538782">&#9670;&#160;</a></span>windowing() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ReturnCode CTDataset::windowing </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>HU_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>greyValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Windowing function with greyValue. </p>
+<p><a class="el" href="class_c_t_dataset.html#aba9b60ad5e96dd6938aa6738d2c12e7f" title="Windowing function without greyValue.">CTDataset::windowing</a> function to window the values without returning a grey value.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">HU_value</td><td>value of each pixel/voxel as HU value from the data array </td></tr>
+    <tr><td class="paramname">center</td><td>center of the window which should be illustrated </td></tr>
+    <tr><td class="paramname">width</td><td>width of the window which should be illustrated </td></tr>
+    <tr><td class="paramname">&amp;greyValue</td><td>reference on calculated greyValue which is given back to the widget by referencing local variable </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ReturnCode, whether the used overgiven parameters are valid, OK if everything is fine else description which value is out of bounds </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>MyLib/<a class="el" href="ctdataset_8h_source.html">ctdataset.h</a></li>
 <li>MyLib/<b>ctdataset.cpp</b></li>
