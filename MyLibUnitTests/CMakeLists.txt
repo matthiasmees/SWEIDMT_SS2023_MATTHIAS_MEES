@@ -1,0 +1,16 @@
+### Unittest Cmake
+
+cmake_minimum_required(VERSION 3.5)
+project(MyLibUnitTests VERSION 0.1 LANGUAGES CXX)
+find_package(Qt6Test REQUIRED)
+find_package(Qt6 REQUIRED COMPONENTS Test)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+enable_testing(true)
+add_executable(MyLibUnitTests tst_mylibunittest.cpp)
+add_test(MyLibUnitTests MyLibTestClass)
+add_dependencies(MyLibUnitTests MyLib)
+target_include_directories(MyLibUnitTests PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/../MyLib)
+add_definitions( -DMYLIBUNITTESTS_EXPORT -DNOMINMAX )
+target_link_libraries(MyLibUnitTests PRIVATE Qt6::Widgets MyLib)
+target_link_libraries(MyLibUnitTests PRIVATE Qt6::Test)
