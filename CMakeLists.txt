@@ -64,9 +64,9 @@ add_dependencies(Aufgabe2_1 MyLib)
 ###############################
 # add UnitTests to our project
 ###############################
-# add_subdirectory("MyLibUnitTests")
-#include_directories(${CMAKE_PROJECT_DIR} MyLibUnitTests)
-#add_dependencies(Aufgabe2_1 MyLib MyLibUnitTests)
+add_subdirectory("MyLibUnitTests")
+include_directories(${CMAKE_PROJECT_DIR} MyLibUnitTests)
+add_dependencies(Aufgabe2_1 MyLib MyLibUnitTests)
 
 
 find_package(Qt6 REQUIRED COMPONENTS Test)
